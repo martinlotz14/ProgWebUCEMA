@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+     <!-- FORMULARIO  -->
+
+     <form action="index.html" method="get">
+        Nombre: <input type="text" name="nombre" maxlength="20"> <br>
+        Apellido: <input type="text" name="apellido" placeholder="ingrese su apellido" required> <br>
+        Cantidad: <input type="number" name="Cantidad" min="10" max="100"> <br>
+        Edad <input type="number" name="edad" min="18" max="99" value="30"> <br>
+
+        Password: <input type="password" name="password"> <br>
+
+        <input type="checkbox" name="info"> Quiero recibir informacion! <br>
+        
+        Fecha de nacimiento: <input type="date" name="fechanac" id=""> <br>
+    
+        Mail: <input type="text" name="mail" >
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Elige un color</legend>
+            <label>
+                <input type="radio" name="color" value="azul"> azul
+            </label>
+            <label>
+                <input type="radio" name="color" value="verde"> verde
+            </label>
+            <label>
+                <input type="radio" name="color" value="amarillo"> amarillo
+            </label>
+        </fieldset>
+
+        <br>
+        <br>
+        <input type="radio" name="sexo">Masculino <br>
+        <input type="radio" name="sexo">Femenino  <br>
+        <br>
+        <br>
+        Seleccione la imagen: <input type="file" name="foto">
+        <br>
+        <br>
+        <select name="lenguaje" id="">
+            <option value="js">JS</option>
+            <option value="java">JAVA</option>
+            <option value="python" selected>PYTHON</option>
+        </select>
+        <br>
+        <br>
+        <!-- Seleccion multiple -->
+        <select name="lenguaje" id="" multiple>
+            <option value="js">JS</option>
+            <option value="java">JAVA</option>
+            <option value="python" selected>PYTHON</option>
+        </select>
+        <input type="submit" value="Guardar">
+        
+
+        <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+     </form>
+</body>
+</html>
