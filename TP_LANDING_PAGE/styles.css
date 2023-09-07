@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@0,900;1,300;1,400&family=Teko:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'teko';
+    color: black;
+    /* padding-left: 2px; */
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+
+main{
+    padding-left: 0%;
+}
+
+/*====== header ======*/
+.encabezado {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40%;
+    padding-left: 2px;
+    padding-top: 5px;
+}
+
+.titulos-header {
+    display: flex;
+    height: 10%;
+    padding-right: 5cm;
+}
+
+.logo {
+height: 150px;
+width: 150px;
+}
+
+header{
+    background-image: url(./sources/banner.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    border-block-end-style: groove;
+}
+
+
+.quien-header{
+    margin: 20px;
+}
+
+.album-header{
+    margin: 20px;
+}
+
+.recital-header{
+    margin: 20px;
+}
+
+.contacto-header{
+    margin: 20px;
+}
+
+/* === Body ===*/
+.photo-frank {
+     height: 50vw;
+     border-radius: 50px;
+     
+}
+
+.container-photo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.container-quien {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 80px;
+}
+
+.banner-varios{
+    display: flex;
+    background-image: url(./sources/bannervarios.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 25%;
+    padding-bottom: 30px;
+    align-items: center;
+    padding-left: 0%;
+}
+
+.banner-rosa{
+    display: flex;
+    background-image: url(./sources/BannerRosa.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 25%;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+
+            /* === Albumes ===*/
+/*
+.albumes {
+    display: flex;
+    flex-direction: row;
+}
+*/
+
+.card-album {
+    width: 20vw;
+}
+
+
+.photo-album {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.container-album {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+            /* === Recitales===*/
+
+.photo-recitales {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.recitales{
+    padding-top: 60px;
+}
+
+.recital{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-recitales {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 25px;
+}
+
+
+
+/* === Footer ===*/
+
+.contacto{
+    font-size: 300%;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: double;
+}
+
+.foto{
+    display: flex;
+    flex: wrap;
+    width: 50%;
+    justify-content: right;
+    background-image: url(./sources/fotoBMW.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:cover;
+    height: 57vh;
+    
+}
+
+
+.primer-f {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 120%;
+    width: 150%;
+    padding-left: 3px;
+    padding-top: 10px;
+}
+
+textarea{
+    height: 30%;
+}
+
+.segundo-f {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:baseline;
+    align-items:center;
+}
+
+.spotify {
+    height: 100px;
+    width: 100px;
+}
+
+.instagram {
+    height: 150px;
+    width: 150px;
+}
+
+.twitter {
+    height: 100px;
+    width: 100px;
+}
+
+
+

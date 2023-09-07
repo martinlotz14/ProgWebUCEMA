@@ -1,0 +1,55 @@
+/*====== adobe color ======*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@0,900;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+.message-header{
+    background-color: blueviolet;
+    padding: 10px 5px;
+}
+
+.main-header, .footer-container{
+    background-color: brown;
+}
+
+.main-header{
+    padding: 4% 2%;
+}
+
+.header-card{
+    background-image: url(../images/fondobatman.png);
+    height:15vh;
+}
+
+.second-header-card{
+    background-image: url(../images/fondoharley.png);
+    height:15vh;
+}
+
+.card{
+    width: 20vw;
+    background-color: dimgray;
+}
+
+.container-card{
+    padding: 8%;
+}
+
+.card-title{
+    margin: 5%;
+    text-align: center;
+}
+
+.card-paragraph{
+    padding: 10%;
+}
+
+.btn{
+    margin-top: 25%;
+    text-align: center;
+    background-color: aqua;
+    padding: 5%;
+}
+
