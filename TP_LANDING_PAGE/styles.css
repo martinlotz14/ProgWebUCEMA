@@ -75,6 +75,10 @@ header{
      
 }
 
+.quien-frank{
+    font-size: 5vh;
+}
+
 .container-photo {
     display: flex;
     justify-content: center;
@@ -109,6 +113,17 @@ header{
     padding-top: 25%;
     padding-bottom: 30px;
     align-items: center;
+}
+
+.titulo-section{
+    font-size: 5vh;
+    padding-left: 5px;
+    text-decoration: underline;
+}
+
+.card-title{
+    font-size: 3vh;
+    text-decoration: underline;
 }
 
 
@@ -153,6 +168,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: underline;
 }
 
 .container-recitales {
@@ -163,13 +179,28 @@ header{
     padding-top: 25px;
 }
 
+.titulo-recital{
+    font-size: 4vh;
+}
+
+.link-entradas{
+    font-size: 3vh;
+}
 
 
 /* === Footer ===*/
 
 .contacto{
-    font-size: 300%;
+    font-size: 250%;
 }
+
+input{
+    width: 10cm;
+    height: 1cm;
+    /* border-width: 0.1vw; */
+    border-color: rgb(0, 0, 0);
+}
+
 
 .foot {
     display: flex;
@@ -182,28 +213,35 @@ header{
     display: flex;
     flex: wrap;
     width: 50%;
-    justify-content: right;
+    justify-content: flex-start;
+    align-items: flex-end;
     background-image: url(./sources/fotoBMW.jpeg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size:cover;
     height: 57vh;
-    
+    width: 70%;
 }
 
 
 .primer-f {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     font-size: 120%;
-    width: 150%;
+    width: 50%;
     padding-left: 3px;
     padding-top: 10px;
+    height: 29vw;
 }
 
-textarea{
-    height: 30%;
+.edad{
+    width: 1cm;
+}
+
+.motivo{
+    height: 1cm;
+    min-width: none;
 }
 
 .segundo-f {
@@ -214,19 +252,56 @@ textarea{
 }
 
 .spotify {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
+    padding-left: 1cm;
 }
 
 .instagram {
-    height: 150px;
-    width: 150px;
+    display: flex;
+    height: 78px;
+    width: 78px;
 }
 
 .twitter {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
 }
 
 
 
+
+/* === channel.index ===*/
+
+.cuerpo-album{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vh;
+    text-decoration: solid;
+    padding-top: 1cm;
+}
+
+.foto-blonde-index{
+    background-image: url(../TP_LANDING_PAGE/sources/albumCovers/BlondCover.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: 500px;
+}
+
+.foto-nostalgia-index{
+    background-image: url(../TP_LANDING_PAGE/sources/albumCovers/Nostalgia.cover.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: 500px;
+}
+
+.foto-channel-index{
+    background-image: url(../TP_LANDING_PAGE/sources/albumCovers/ChannelOrangeCover.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: 500px;
+}
