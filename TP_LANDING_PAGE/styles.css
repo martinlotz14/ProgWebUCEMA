@@ -75,6 +75,11 @@ header{
      
 }
 
+/* .primer-container{
+    background-image: url(./sources/background-naranja.webp);
+    background-repeat: no-repeat;
+} */
+
 .quien-frank{
     font-size: 5vh;
 }
@@ -83,6 +88,10 @@ header{
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
+}
+
+.texto-quien{
+    text-align: center;
 }
 
 .container-quien {
@@ -213,7 +222,6 @@ input{
     display: flex;
     flex: wrap;
     width: 50%;
-    justify-content: flex-start;
     align-items: flex-end;
     background-image: url(./sources/fotoBMW.jpeg);
     background-repeat: no-repeat;
