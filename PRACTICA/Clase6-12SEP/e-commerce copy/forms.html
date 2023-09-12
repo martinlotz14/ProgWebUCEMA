@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- <header>
+        <img src="../Recursos/png-transparent-mclaren-racing-hd-logo.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="https://www.mclaren.com/racing/formula-1/">Formula 1</a></li>
+                <li><a href="https://www.mclaren.com/racing/indycar/">IndyCar</a></li>
+                <li><a href="https://www.mclaren.com/racing/formula-e/">Formula E</a></li>
+            </ul>
+            <form action="">
+                <input type="search" name="search" id="search">
+                <button type="submit">Buscar</button>
+            </form>
+        </nav>
+    </header> -->
+    <main>
+        <section>
+            <div>
+                <h1>Trabaja con nosotros</h1>
+                <h2>Gracias por el interes en nuestra empresa</h2>
+                <p>Completa el siguiente formulario de postulacion:</p>
+            </div>
+            <div>
+                <form action="mailto:martinlotz44@gmail.com" class="form" id="form">
+                    <fieldset>
+                        <legend>Informacion personal</legend>
+                        <div>
+                            <label for="fullname">Nombre y Apellido:</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Juan Perez" required>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div>
+                            <label for="dni">DNI/Pasaporte</label>
+                            <input type="text" name="dni" id="dni">
+                        </div>
+                        <div>
+                            <label for="position">Puesto de interes</label>
+                            <select name="position" id="position">
+                                <option value="" selected>Seleccione una opcion</option>
+                                <option value="mkt">Analista de Marketing</option>
+                                <option value="fin">Jefe de Finanzas</option>
+                                <option value="rep">Repartidor</option>
+                                <option value="rrhh">Director de RRHH</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="cv">Subi tu CV:</label>
+                            <input type="file" id="cv" name="cv">
+                        </div>
+                        <div>
+                            <label for="age">Edad:</label>
+                            <input type="number" id="age" name="age" min="18" max="80" step="1">
+                        </div>
+                        <div>
+                            <h4>Selecciona los idiomas que manejas:</h4>
+                            <input type="checkbox" id="language-spanish" value="spanish" name="language">
+                            <label for="">Español</label><br>
+                            <input type="checkbox" id="language-english" value="english" name="language">
+                            <label for="">Ingles</label><br>
+                            <input type="checkbox" id="language-french" value="french" name="language">
+                            <label for="">Frances</label><br>
+                            <input type="checkbox" id="language-german" value="german" name="language"> 
+                            <label for="">Aleman</label><br>
+                        </div>
+                        <div>
+                            <label for="telephone">Ingresa tu telefono:</label>
+                            <input type="tel" id="telephone" name="telephone" maxlength="12">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="linkedin">Linkedin</label>
+                            <input type="text" id="linkedin" name="linkedin">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="">Carta de presentacion:</label>
+                            <textarea name="cover-letter" id="cover-letter" cols="30" rows="10" maxlength="5000" placeholder="Contanos porque queres trabajar con nosotros"></textarea>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Preferencias de trabajo:</legend>
+                        <p>Horarios:</p>
+                        <div>
+                            <input type="radio" name="working-preferences" id="morning">
+                            <label for="morning">Mañana</label>
+                            <input type="radio" name="working-preferences" id="evening">
+                            <label for="evening">Tarde</label>
+                        </div>
+                        <p>Metodologia:</p>
+                        <div>
+                            <input type="radio" name="office" id="office">
+                            <label for="office">Presencial</label>
+                            <input type="radio" name="virtual" id="remote">
+                            <label for="remote">Virtual</label>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="start-date">Comienzo:</label>
+                            <input type="datetime-local" id="start-date" name="start-date">
+                        </div>
+                    </fieldset>
+                    <button type="reset" id="reset-btn">Reset</button>
+                    <button type="submit">Enviar</button>
+                    
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://www.mclaren.com/racing/mclaren-racing-social-media-community-code/">Trabaja con nosotros</a></li>
+                <li><a href="https://www.mclaren.com/racing/contact-us/">Contactanos</a></li>
+                <li><a href="https://brandfolder.com/portals/mclaren-racing-media">Quienes somos</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="../e-commerce copy/index1.js"></script>
+
+</body>
+</html>
